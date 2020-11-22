@@ -9,5 +9,5 @@ async function unimanager_del() {
            }); 
            document.getElementById("message").innerHTML = res; 
        } catch (error) { console.log(error); } 
-   
+
 }
