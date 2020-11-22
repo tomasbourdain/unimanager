@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Unimanager</title> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <script src="unimanager_post.js"></script> 
+    </head> 
+    <body> 
+        <p><label for="name">Your name: </label> 
+            <input type=text id="name"></p>  
+        <p><label for="birthDay">Birth Date: </label> 
+            <input type=date id="birthDate"></p> 
+        <p><label for="gender">Gender:</label></p>
+        <div>
+            <input type="radio"  name="gender" value="M">
+            <label for="M">Masculine</label><br>
+            <input type="radio"  name="gender" value="F">
+            <label for="F">Feminine</label><br>
+        </div>
+        <p><label for="email">Your email: </label> 
+            <input type=email id="email"></p>
+        <br></br>
+        <input type=button value="Add Student" onclick="unimanager()"> 
+
+        <h5 id="message"></h5>
+    </body> 
+</html>
